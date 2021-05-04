@@ -1,187 +1,213 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <title>Résumé</title>
-    <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Resume</title>
   </head>
   <body>
-    <main>
-      <article>
-        <div class="page" style="border-color: midnightblue;">
-          <div class="stackable grid">
-            <div class="row">
-              <div class="three wide center aligned column">
-                <div class="avatar-wrapper">
-                  <object class="avatar" data="./assets/ryuHoshi.jpg" role="img" aria-label="Profile picture"></object>
-                </div>
+    <div class="wave-container">
+      <div class="wave-top"></div>
+      <div class="wave-bottom">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" viewBox="414 334 1440 118">
+          <path fill="currentColor" d="M1168.4,421.2c266.9,49.9,515.4,28.9,685.6,8.8v-96H414v96C601.3,407.8,844,360.6,1168.4,421.2z"></path>
+        </svg>
+      </div>
+    </div>
+    <div class="container">
+      <div class="header">
+        <div class="avatar-wrapper">
+          <img class="avatar" src="avatar.JPG" alt="Profile picture ">
+        </div>
+        <div class="full-name">
+    
+          <span class="first-name"> Kharchova</span>
+          <span class="last-name">Liliia</span>
+        </div>
+        <div class="contact-info">
+          <ul>
+            <li>
+              <a href="mailto:kharchova@outlook.com" rel="author" class="mail">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path
+                    d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+                  </path>
+                </svg>
+                <span class="nets">Email:</span>
+                <span class="email-val">kharchova@outlook.com</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/lilykharchova/" rel="author" class="instagram" target="_blank">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path
+                    d="M21.231 0h-18.462c-1.529 0-2.769 1.24-2.769 2.769v18.46c0 1.531 1.24 2.771 2.769 2.771h18.463c1.529 0 2.768-1.24 2.768-2.771v-18.46c0-1.529-1.239-2.769-2.769-2.769zm-9.231 7.385c2.549 0 4.616 2.065 4.616 4.615 0 2.549-2.067 4.616-4.616 4.616s-4.615-2.068-4.615-4.616c0-2.55 2.066-4.615 4.615-4.615zm9 12.693c0 .509-.413.922-.924.922h-16.152c-.511 0-.924-.413-.924-.922v-10.078h1.897c-.088.315-.153.64-.2.971-.05.337-.081.679-.081 1.029 0 4.079 3.306 7.385 7.384 7.385s7.384-3.306 7.384-7.385c0-.35-.031-.692-.081-1.028-.047-.331-.112-.656-.2-.971h1.897v10.077zm0-13.98c0 .509-.413.923-.924.923h-2.174c-.511 0-.923-.414-.923-.923v-2.175c0-.51.412-.923.923-.923h2.174c.511 0 .924.413.924.923v2.175z"
+                    fill-rule="evenodd" clip-rule="evenodd" />
+                </svg>
+                <span class="nets">Instagram:</span>
+                <span class="email-val">lilykharchova</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Kharchova" rel="author" class="github" target="_blank">
+                <svg class="icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 496 512">
+                  <path
+                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                </svg>
+                <span class="nets">GitHub:</span>
+                <span class="email-val">Kharchova</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="box2">
+          <div class="about">
+            <span class="desc">
+              — Hello! &#128075; I am a beginning programmer, learning .NET and front-end development. I am motivated,
+              result oriented and looking for a successful team company with growth potential. I want to become a junior
+              developer as soon as possible! </span>
+          </div>
+        </div>
+      </div>
+      <div class="details">
+        <div class="section">
+          <div class="section__title">Education &#128105;&#127995;&#8205;&#127891;</div>
+          <div class="section__list">
+            <div class="section__list-item">
+              <div class="left">
+                <div class="name">O.M.Beketov National University of Urban Economy in Kharkiv</div>
+                <div class="addr">Kharkiv, Ukraine</div>
+                <div class="duration">Sep 2020 - Now</div>
               </div>
-              <div class="thirteen wide column">
-                <div class="stackable grid">
-                  <div class="sixteen wide column">
-                    <h1 class="name"> Ryu Hoshi (リュウ Ryū) </h1>
-                    <ul class="contacts">
-                    <li>
-                    <a href ="https://www.facebook.com/profile.php?id=100004808958030" rel="author" class="faceboook">
-                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z"/></svg>
-                    <span> https://www.facebook.com </span>
-                    </a>
-                    </li>
-                    <li>
-                    <a href ="ryuwins@gmail.com" rel="author" class="mail">
-                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg>
-                    <span> ryuwins@gmail.com </span>
-                    </a>
-                    </li>
-                    <li>
-                    <a href ="https://twitter.com/denjinryu" rel="author" class="twitter">
-                      <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                        <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
-                      <span> https://twitter.com/denjinryu </span>
-                    </a>
-                    </li>
-                    <li>
-                    <a href ="https://www.instagram.com/sworn_ryu/ " rel="author" class="instagram">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M21.231 0h-18.462c-1.529 0-2.769 1.24-2.769 2.769v18.46c0 1.531 1.24 2.771 2.769 2.771h18.463c1.529 0 2.768-1.24 2.768-2.771v-18.46c0-1.529-1.239-2.769-2.769-2.769zm-9.231 7.385c2.549 0 4.616 2.065 4.616 4.615 0 2.549-2.067 4.616-4.616 4.616s-4.615-2.068-4.615-4.616c0-2.55 2.066-4.615 4.615-4.615zm9 12.693c0 .509-.413.922-.924.922h-16.152c-.511 0-.924-.413-.924-.922v-10.078h1.897c-.088.315-.153.64-.2.971-.05.337-.081.679-.081 1.029 0 4.079 3.306 7.385 7.384 7.385s7.384-3.306 7.384-7.385c0-.35-.031-.692-.081-1.028-.047-.331-.112-.656-.2-.971h1.897v10.077zm0-13.98c0 .509-.413.923-.924.923h-2.174c-.511 0-.923-.414-.923-.923v-2.175c0-.51.412-.923.923-.923h2.174c.511 0 .924.413.924.923v2.175z" fill-rule="evenodd" clip-rule="evenodd"/></svg>
-                      <span> https://www.instagram.com/sworn_ryu/ </span>
-                    </a>
-                    </li>
-                    </ul>
-
-                  </div>
-                  <div class="sixteen wide mobile only column">
-                    <div class="divider"></div>
-                  </div>
-                  <div class="sixteen wide column">
-                    <h2> Resume </h2>
-                  <p>&mdash; I do not compete with others, the only competition that challenges me is myself. As a fighter, friend and an employee I am known as contemplative, tortured and driven. </p>
-                  </div>
-                </div>
+              <div class="right">
+                <div class="name">Master degree</div>
+                <div class="desc">Automation and computer-integrated technologies</div>
               </div>
             </div>
-            <div class="row">
-              <div class="sixteen wide column">
-                <div class="fat divider"></div>
+            <div class="section__list-item">
+              <div class="left">
+                <div class="name">Space Deer English School</div>
+                <div class="addr">Kharkiv, Ukraine</div>
+                <div class="duration">Sep 2019 - May 2020</div>
+              </div>
+              <div class="right">
+                <div class="name">A2-B1 English</div>
+                <div class="desc">Gramma, Speaking</div>
               </div>
             </div>
-            <div class="row">
-              <div class="ten wide column">
-                <h3>EXPERIENCE </h3>
-                <ul class="timeline">
-                <li>
-                <p><small>2018</small></p>
-                <p>Amongst many fighters of the past was featured in the movie "Ready Player One". Ryu ready always!</p>
-                </li>
-                <li>
-                <p><small>2017</small></p>
-                <p>United with unknown until then to me Power Rangers to defea resurrected M.Bison.Damn good fighters they are, even not knowing karate ways!</p>
-                </li>
-                <li>
-                <p><small>2016</small></p>
-                <p>In "Street Fighter V" once and for all erased M.Bison from earth and tamed my inner Evil Ryu. Also spent some time on a side-project, mini-series "Street Fighter: Resurrection".</p>
-                </li>
-                <li>
-                <p><small>2014</small></p>
-                Filmed in a martial arts tutorial "Street Fighter: Assassin's Fist", revealing to audience forgotten art of Ansatsuken.</p>
-                </li>
-                <li>
-                <p><small>2012 </small></p>
-                <p>The gods of intenet concluded me in the animated movie "Wreck-It Ralph", but rewarded me with a good drink for it!</p>
-                </li>
-                <li>
-                <p><small>2008</small></p>
-                <p>My evil alter ego sneaked out of control and became a boss in "Street Fighter IV".</p>
-                </li>
-                <li>
-                <p><small>2006</small></p>
-                <p>Borrowed my famous ripped gi to Soki in "Onimusha: Dawn of Dreams", gods informed me he needed that for the battle.</p>
-                </li>
-                <li>
-                <p><small>1998</small></p>
-                <p>Defeated M. Bison in "Street Fighter Alpha 2", bastard wanted to use my heroic body for his evil intentions, but retreated with shame. Also this year I encountered Marvel universe in "Marvel vs. Capcom: Clash of Super Heroes" fighter,loyal to my employer, Capcom, of course.</p>
-                </li>
-                <li>
-                <p><small>1997</small></p>
-                <p>Reunited with Ken, my friend and opponent in "Street Fighter III". Men's friendship works mysteriously. Also helped with Arika project "Street Fighter EX"</p>
-                </li>
-                <li>
-                <p><small>1996</small></p>
-                <p>Took care of villainous Akuma in "Street Fighter Alpha 2". As a freelance on "Super Puzzle Fighter II Turbo" tried myself in a new genre, puzzle games. Let the wrath of seven heavens come upon these malicious enigmas, never again!</p>
-                </li>
-                <li>
-                <p><small>1995</small></p>
-                <p>Kept fighting in "Street Fighter Alpha: Warriors' Dreams".</p>
-                </li>
-                <li>
-                <p><small>1994</small></p>
-                <p> Screened in a movie "Street Fighter", so that the batllesof past would not be forgotten by millenial generation.</p>
-                </li>
-                <li>
-                <p><small>1991</small></p>
-                <p>Was promoted to "Street Fighter II". Didn't stay there for long, celebrations and office dwelling is not for me!</p>
-                </li>
-                <li>
-                <p><small>1987</small></p>
-                <p>Started working for Capcom project "Street Fighter". My partner was Ken Masters, the boss'name was Sagat.</p>
-                </li>
-                PUBLICATIONS
-
-                <li>
-                <p><small>2011 </small></p>
-                <p>The true and humble story of me under pseudonim Tyler Wilde in an article "The evolution of Ken and Ryu"</p>
-                </li>
-                <li>
-                <p><small>2003-2018 </small></p>
-                <p>For 15 years I have published comic books with Udon Entertainment depicting my adventures, bitter lessons and great victories.</p>
-                </li>
-                </ul>
+            <div class="section__list-item">
+              <div class="left">
+                <div class="name">O.M.Beketov National University of Urban Economy in Kharkiv</div>
+                <div class="addr">Kharkiv, Ukraine</div>
+                <div class="duration">Sep 2016 - Jun 2020</div>
               </div>
-              <div class="six wide column">
-                <section>
-                    <h3>Languages</h3>
-                    <p class="tags small">
-                  <span class="language" lang="en">&#x1f1fa;&#x1f1f8; ENGLISH</span>
-                  <span class="language" lang="ch">&#127464;&#127475; MANDARIN</span>
-                  <span class="language" lang="jp">&#127471;&#127477; JAPANESE</span></p>
-                  </section>
-                <section>
-                  <h3> LIFE & EDUCATION </h3>
-                  <p>To live is to fight and to fight is to live. I started learning fighting at my master Gouken's castle, I was beaten at head way too often to remember when exactly.</p>
-                  </section>
-                  <section>
-                  <h3> SKILLS </h3>
-                  <p>KARATE ENERGY ATTACK SHORYUKEN WALKING BAREFOOT PLAYING VIDEOGAMES DOING BURGERS MASHING POTATOES COPYWRITING ACTING VOICEOVERS</p>
-                  </section>
-                  
-                  <section>
-                  <h3>CHARACTER</h3>
-                  <p>NOBLE DIRECT BOLD CONFIDENT DARING SCHIZOPHRENIC DRAMATIC PERSUASIVE IMMEDIATE WISE</p>
-                  </section>
-                  
-                  <section>
-                  <h3>LIFE LESSON</h3>
-                  <p>You must defeat Sheng Long to stand a chance.</p>
-                  </section>
-                  
-                  <section>
-                  <h3>LIKES &#128515; </h3>
-                  <p>GI VEGETABLES BLOOD SMALL MARSHMELLOWS RED COLOR KILLED ENEMY</p>
-                  </section>
-                  
-                  <section>
-                  <h3>DISLIKES &#128530; </h3>
-                  <p>BISONS GHOSTS SMARTPHONES SMELL OF SEAFOOD BARBER SHOPS SLEEVES</p>
-                  </section>
-                  
-                  <section>
-                  <h3>WANTS &#129402;</h3>
-                  <p>BE FIT WRITE MORE BOOKS FIND A GIRLFRIEND TO GO TO CINEMA WITH KILL ALL OF AKUMA FAMILY</p>
-                  <section>
+              <div class="right">
+                <div class="name">Bachelor degree</div>
+                <div class="desc">Automation and computer-integrated technologies</div>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+        <div class="section">
+          <div class="section__title">Skills &#128105;&#127995;&#8205;&#128187;</div>
+          <div class="skills">
+            <div class="skills__item">
+              <div class="left">
+                <div class="name">
+                  C#
+                </div>
+              </div>
+              <div class="right">
+                <input id="ck11" type="checkbox" checked />
+                <label for="ck11"></label>
+                <input id="ck12" type="checkbox" checked />
+                <label for="ck12"></label>
+                <input id="ck13" type="checkbox" checked />
+                <label for="ck13"></label>
+                <input id="ck14" type="checkbox" />
+                <label for="ck14"></label>
+                <input id="ck15" type="checkbox" />
+                <label for="ck15"></label>
+              </div>
+            </div>
+            <div class="skills__item">
+              <div class="left">
+                <div class="name">
+                  JavaScript
+                </div>
+              </div>
+              <div class="right">
+                <input id="ck21" type="checkbox" checked />
+                <label for="ck21"></label>
+                <input id="ck22" type="checkbox" checked />
+                <label for="ck22"></label>
+                <input id="ck23" type="checkbox" />
+                <label for="ck23"></label>
+                <input id="ck24" type="checkbox" />
+                <label for="ck24"></label>
+                <input id="ck25" type="checkbox" />
+                <label for="ck25"></label>
+              </div>
+            </div>
+            <div class="skills__item">
+              <div class="left">
+                <div class="name">
+                  HTML / CSS
+                </div>
+              </div>
+              <div class="right">
+                <input id="ck31" type="checkbox" checked />
+                <label for="ck31"></label>
+                <input id="ck32" type="checkbox" checked />
+                <label for="ck32"></label>
+                <input id="ck33" type="checkbox" />
+                <label for="ck33"></label>
+                <input id="ck34" type="checkbox" />
+                <label for="ck34"></label>
+                <input id="ck35" type="checkbox" />
+                <label for="ck35"></label>
+              </div>
+            </div>
+            <div class="skills__item">
+              <div class="left">
+                <div class="name">
+                  SQL
+                </div>
+              </div>
+              <div class="right">
+                <input id="ck41" type="checkbox" checked />
+                <label for="ck41"></label>
+                <input id="ck42" type="checkbox" />
+                <label for="ck42"></label>
+                <input id="ck43" type="checkbox" />
+                <label for="ck43"></label>
+                <input id="ck44" type="checkbox" />
+                <label for="ck44"></label>
+                <input id="ck45" type="checkbox" />
+                <label for="ck45"></label>
               </div>
             </div>
           </div>
         </div>
-      </article>
-    </main>
+        <div class="section">
+          <div class="section__title">Tools</div>
+          <div class="section__list">
+            <div class="section__list-item">
+              <div class="text">Visual Studio 2019, Visual Studio Code, GitHub, Teams, Word, Excel, Windows, macOS</div>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="section__title">Interests ✨</div>
+          <div class="section__list">
+            <div class="section__list-item">
+              <div class="text"> MEMES, PINK COLOR, COOKING, CODING, TRAVELING, VIDEO GAMES, SOMETIMES BEING ALONE, ROBOTS, CAKES
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
